@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

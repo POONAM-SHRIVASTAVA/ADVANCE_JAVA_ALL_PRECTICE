@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;EMP&apos;&#x0D;&#x0A;- Original project: &apos;EMP&apos;&#x0D;&#x0A;- Original element: &apos;EMP/src/main/java/com.employee.DaoImpl&apos;" description="Delete element" element1="/src\/main\/java&lt;com.employee.DaoImpl" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1718476058183" subPackages="false" version="1.0"/>
+</session>

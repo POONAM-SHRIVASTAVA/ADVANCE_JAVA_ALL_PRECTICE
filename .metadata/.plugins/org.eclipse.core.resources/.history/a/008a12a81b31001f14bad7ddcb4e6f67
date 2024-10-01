@@ -1,0 +1,5 @@
+package com.registration.Entity;
+
+public class Emp {
+
+}

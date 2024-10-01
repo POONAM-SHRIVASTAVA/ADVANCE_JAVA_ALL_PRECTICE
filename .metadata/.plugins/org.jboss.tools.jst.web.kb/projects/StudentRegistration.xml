@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/shriv/Downloads/jakarta.servlet-api-6.0.0.jar"/>
+  <path value="D:/WebJava/StudentRegistration/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.3.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

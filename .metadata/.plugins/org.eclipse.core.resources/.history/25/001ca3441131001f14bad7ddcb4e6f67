@@ -1,0 +1,5 @@
+package com.registration_page.conn;
+
+public class HibernateUtil {
+
+}

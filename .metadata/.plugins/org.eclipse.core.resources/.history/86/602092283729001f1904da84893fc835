@@ -1,0 +1,31 @@
+package com.example.Hibernatedemo;
+import org.hibernate.SessionFactory;
+
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+        
+        Configuration cfg =new Configuration();
+        cfg.configure().addAnnotatedClass(Product.class);
+        SessionFactory sf=cfg.buildSessionFactory();
+       Session session = sf.openSession();
+       Product p = new Product();
+       p.setId(101);
+       p.setName("KeyBoard");
+       p.setPrice(1200);
+       p.setQty(10);
+       session.save(p);
+    
+    }
+}

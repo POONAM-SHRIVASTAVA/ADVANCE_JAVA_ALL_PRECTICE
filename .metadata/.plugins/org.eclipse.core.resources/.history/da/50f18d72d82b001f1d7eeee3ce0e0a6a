@@ -1,0 +1,5 @@
+package com.example.springjavabasesconfigdemo;
+
+public class ApplicationConfig {
+
+}

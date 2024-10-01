@@ -1,0 +1,34 @@
+package com.example.Hibernatedemo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+//import java.io.FilterOutputStream;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Configuration cfg = new Configuration();
+        cfg.configure().addAnnotatedClass(Product.class);
+        SessionFactory sf = cfg.buildSessionFactory();
+        Session session = sf.openSession();
+        Transaction txn = session.beginTransaction();
+    
+      
+
+       Product p = new Product();
+       p.setId(103);
+       p.setName("keyboard");
+       p.setQty(12);
+       p.setPrice(5000);
+       session.save(p);
+       txn.commit();
+      
+    }
+}
+       

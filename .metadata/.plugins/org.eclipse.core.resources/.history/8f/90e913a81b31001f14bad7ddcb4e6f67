@@ -1,0 +1,5 @@
+package com.registration.conn;
+
+public class HibernateUtil {
+
+}
